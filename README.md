@@ -118,3 +118,5 @@ TcmDevelopment makes use of a [Virtual Path Provider](http://msdn.microsoft.com/
 
 Additionally it uses some dark magic to replace the [IConfigMapPath](http://msdn.microsoft.com/en-us/library/system.web.configuration.iconfigmappath(v=vs.110).aspx) interface on the [HttpRuntime](http://msdn.microsoft.com/en-us/library/system.web.httpruntime(v=vs.110).aspx) module.
 This allows it to capture and handle all MapPath calls such Server.MapPath and Page.MapPath and redirect these accordingly to the configured file locations.
+
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/cb439853d159fe1de33e3197f1caf6f7 "githalytics.com")](http://githalytics.com/github.com/TcmExtensions)
