@@ -1,0 +1,19 @@
+<VirtualMachine Version="1.6">
+	<!-- Possible attributes:
+		Version: JRE version to use, overriding JavaSoft\CurrentVersion
+		Memory: Maximum memory heap size in MB
+		Home: JAVA_HOME to use, i.e. "C:\Program Files\Java\jre6\"
+		Path: Full path to jvm.dll to use, i.e. "C:\Program Files\Java\jre6\bin\client\jvm.dll"
+	-->
+	<Options>
+		<!-- Java Virtual Machine options, either -D or -X as documented -->
+		<Option Name="-Dfile.encoding" Value="utf-8" />
+	</Options>
+	<Classpath>
+		<!-- Class path inclusions -->
+		<!--
+		<Include LibraryPath="" />
+		<Include Path="" />
+		-->
+	</Classpath>
+</VirtualMachine>

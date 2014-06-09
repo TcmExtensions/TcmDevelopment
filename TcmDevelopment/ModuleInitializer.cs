@@ -152,6 +152,9 @@ namespace TcmDevelopment
 				Environment.SetEnvironmentVariable("TRIDION_HOME", tridionPath);
 				SetConfigurationHook(configurationPath);
 
+				// Modify the current directory to the Tridion configuration path
+				Environment.CurrentDirectory = configurationPath;
+
 				// Set managable heap sizes for CodeMesh JuggerNET
 				// http://codemesh.com/products/juggernet/doc/runtime_config.html
 				Environment.SetEnvironmentVariable("XMOG_INITIAL_HEAPSIZE", "16");
